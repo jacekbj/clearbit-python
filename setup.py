@@ -46,7 +46,7 @@ setup(
     packages=['clearbit', 'clearbit.enrichment'],
     package_data={'clearbit': ['../VERSION']},
     install_requires=install_requires,
-    use_2to3=True,
+    use_2to3=False,
     include_package_data=True,
     test_suite='tests',
     classifiers=[
